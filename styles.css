@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: rgb(28, 27, 27);
+    font-family: sans-serif;
+}
+.container {
+    background-color: rgb(215, 203, 203);
+    width: 50%;
+    height: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.img {
+    width: 25%;
+    height: 15%;
+    margin: 100px 50px 100px 155px;
+    border-radius: 4% 0 0 4%;
+}
+.details {
+    
+    width: 13%;
+    height: 36.8%;
+    position: absolute;
+    top: 200px;
+    right: 479px;
+    background-color: white;
+    padding: 0 25px 25px 25px;
+    text-align: left;
+    border-radius: 0 4% 4% 0;
+
+}
+p {
+    font-size: 6px;
+    line-height: 10px;
+    padding: 10px 5px 10px 5px;
+    color: #aaaaaa;
+}
+.one {
+    padding-bottom: 5px;
+
+}
+.two {
+    font-size: 10px;
+}
+h1 {
+    line-height: 20px;
+    font-family: cursive, sans-serif;
+    padding: 5px;
+    font-size: 15px;
+}
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(18, 158, 95);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cart {
+    background-color: rgb(18, 158, 95);
+    height: 30px;
+    border-radius: 10%;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-weight: light;
+    margin-top: 5px;
+}
+.icon {
+    height: 10px;
+    margin-top: 8px;
+}
+.cancelled {
+    text-decoration: line-through;
+}
